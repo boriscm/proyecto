@@ -5,7 +5,7 @@ function navBar(){
   return(
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
     <div class="container-fluid">
-      <a class="navbar-brand" href=".">APP Name</a>
+      <a class="navbar-brand" href=".">OpiMusic</a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,7 +36,19 @@ function navBar(){
               <a class="dropdown-item" href=".">Separated link</a>
             </div>
           </li>
+          
+          
+
+          
+        <li >
+        </li>
         </ul>
+        <div style={{marginRight:"5rem"}}>
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">INGRESAR</button>
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">REGISTRAR</button>
+        </div>
+        
+
         <form class="d-flex">
           <input class="form-control me-sm-2" type="text" placeholder="Search"/>
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
@@ -51,7 +63,7 @@ function navBar(){
 function cardSongs() {
   return(
   <div class="card text-dark bg-white bg-primary mb-3" style={{Width: "30rem"}}>
-    <div class="card-header"><h5 style={{color:"black"}}>Cancion</h5></div>
+    <div class="card-header"><h5 style={{color:"black"}}>Canciones</h5></div>
     <div class="card-body">
       <p class="card-text">El top de canciones que recomendamos para ti y tu preferencias musiales:</p>
 
@@ -102,7 +114,7 @@ function cardSongs() {
 function cardCantantes() {
   return(
   <div class="card text-dark bg-white bg-primary mb-3" style={{maxWidth: "30rem" }}>
-    <div class="card-header"><h5 style={{color:"black"}}>Cantante</h5></div>
+    <div class="card-header"><h5 style={{color:"black"}}>Cantantes</h5></div>
     <div class="card-body">
       <h4 class="card-title">Primary card title</h4>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
